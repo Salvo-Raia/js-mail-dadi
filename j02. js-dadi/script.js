@@ -3,11 +3,19 @@
 let userPoints = 0;
 let pcPoints = 0;
 
+//TODO Bonus Tutor
+let gameStop = false;
+
 // Generare un numero random da 1 a 6, sia per il giocatore sia per il computer.
 //* Il ciclo for fa parte del Bonus autoassegnato per ripetere almeno 3 giri di dadi
-for (i = 0; i < 3; i++) {
+for (i = 0; gameStop !== true; i++) {
 console.log("Tira un dado!");
-let userDice = Math.floor(Math.random() * (6 - 1 +1)) + 1;
+let userDice = (prompt("Digita un numero da 1 a 6"));
+
+if (userDice == "STOP") {
+    gameStop = true;
+    console.log("Hai annullato la partita");
+} else {
 console.log("Hai fatto:", userDice);
 
 console.log("Ora tocca al PC");
@@ -24,11 +32,7 @@ if (userDice > pcDice) {
     pcPoints += 1;
     console.log("%cHai perso!", "background: black; color: red;");
 }
-}
-
-//* Bonus autoassegnato 
-//* Mostro il numero di punti (vittorie) dell'user e del pc
-console.log("Tu hai totalizzato:", userPoints,". Il PC ha realizzato:", pcPoints);
+} console.log("Tu hai totalizzato:", userPoints,". Il PC ha realizzato:", pcPoints);
 if (userPoints > pcPoints) {
     console.log("%cCongratulazioni! Hai vinto", "background: black; color: green;");  
 } else if (userPoints == pcPoints) {
@@ -36,5 +40,11 @@ if (userPoints > pcPoints) {
 } else {
     console.log("%cOh no, hai perso!", "background: black; color: red;")
 }
+}
+
+
+//* Bonus autoassegnato 
+//* Mostro il numero di punti (vittorie) dell'user e del pc
+
 
 
