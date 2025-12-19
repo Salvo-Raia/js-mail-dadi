@@ -30,5 +30,12 @@ if (userDice > pcDice) {
 //! Bonus autoassegnato 
 //! Mostro il numero di punti (vittorie) dell'user e del pc
 console.log("Tu hai totalizzato:", userPoints,". Il PC ha realizzato:", pcPoints);
+if (userPoints > pcPoints) {
+    console.log("%cCongratulazioni! Hai vinto", "background: black; color: green;");  
+} else if (userPoints == pcPoints) {
+    console.log("%cE' finita in pareggio! Aggiorna la pagina se vuoi una rivincita", "background: black; color: yellow;");
+} else {
+    console.log("%cOh no, hai perso!", "background: black; color: red;")
+}
 
 
