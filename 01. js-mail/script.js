@@ -4,7 +4,6 @@ console.log("Js is ready to go");
 const mailInvitati = ["alanwake@darkmail.com", "jesse.faden@fbc.com", "jack-joyce@yahoo.it", "p.serene@outlook.it"]
 console.table(mailInvitati)
 
-
 // Chiedi all’utente la sua email,
 const userMail = prompt("Inserisci la tua mail", "Es. nomecognome@mail.com")
 let userFound = false;
@@ -23,5 +22,5 @@ for (i = 0; i < mailInvitati.length; i++) {
 if (userFound === true) {
     console.log("Benvenuto", userMail + "! Puoi accedere alla festa ✅")
 } else {
-    console.log("Utente non riconosciuto! Non sei il benvenuto ❌");
+    console.warn("Utente non riconosciuto! Non sei il benvenuto ❌");
 }
