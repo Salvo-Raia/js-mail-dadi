@@ -2,14 +2,13 @@
 //* Queste due variabili fanno parte del Bonus autoassegnato
 let userWonMatches = 0;
 let pcWonMatches = 0;
-
-//TODO Bonus Tutor
+//* Bonus Tutor
 let gameStop = false;
 
 // Generare un numero random da 1 a 6, sia per il giocatore sia per il computer.
 for (i = 0;  i < 5 && gameStop !== true ; i++) {
-console.log("Tira un dado!");
-let userDice = (prompt("Digita un numero da 1 a 6"));
+console.log("Scegli un numero da 1 a 6");
+let userDice = (prompt("Digita un numero da 1 a 6 o digita STOP per annullare la partita"));
 if (userDice.toUpperCase() == "STOP") {
     gameStop = true;
     console.log("Hai annullato la partita");
@@ -18,10 +17,10 @@ if (userDice.toUpperCase() == "STOP") {
     i--; // Così il giro non viene contato!
 } else {
 userDice = parseInt(userDice)
-console.log("Hai fatto:", userDice);
+console.log("Hai scelto:", userDice);
 console.log("Ora tocca al PC");
 let pcDice = Math.floor(Math.random() * (6 - 1 +1)) + 1;
-console.log("Il PC ha fatto:", pcDice);
+console.log("Il PC ha scelto:", pcDice);
 // Stabilire il vincitore, in base a chi fa il punteggio più alto.
 if (userDice > pcDice) {
     userWonMatches += 1; 
@@ -46,5 +45,5 @@ if (gameStop === false) {
         console.log("%cOh no, Hai perso!", "background: black; color: red;")
     } 
 } else {
-    console.log("Hai abbandonato la partita prima della fine, il punteggio non viene calcolato");
+    console.log("%cHai abbandonato la partita prima della fine, il punteggio non viene calcolato.", "background: black; color: pink");
 }
