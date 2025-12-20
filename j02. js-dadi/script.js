@@ -13,7 +13,11 @@ let userDice = (prompt("Digita un numero da 1 a 6"));
 if (userDice.toUpperCase() == "STOP") {
     gameStop = true;
     console.log("Hai annullato la partita");
+}  else if (userDice <= 0 || userDice > 6) {
+    console.log("Inserisci un numero compreso tra 1 e 6!");
+    i--; // Così il giro non viene contato!
 } else {
+userDice = parseInt(userDice)
 console.log("Hai fatto:", userDice);
 console.log("Ora tocca al PC");
 let pcDice = Math.floor(Math.random() * (6 - 1 +1)) + 1;
