@@ -1,6 +1,6 @@
 ![Boolean Tech Academy](https://img.shields.io/badge/Boolean_Tech_Academy-001632?style=for-the-badge)
 
-# 🎓 Exercise 18/50 - Emails & Dice Game (e-mail e dadi)
+# 🎓 Exercise 18/50 - E-mails & Dice Game (e-mail e dadi)
 
 ## 📌 Project Overview
 
