@@ -1,6 +1,6 @@
-![Boolean Tech Academy](https://img.shields.io/badge/Boolean_Tech_Academy-001632?style=for-the-badge)
+![Static Badge](https://img.shields.io/badge/Boolean_Tech_Academy-1565C0?style=for-the-badge)
 
-# 🎓 Exercise 18/50 - E-mails & Dice Game (e-mail e dadi)
+# 🎓 Exercise 18/50: E-mails & Dice Game
 
 ## 📌 Project Overview
 
@@ -13,7 +13,7 @@
 
 ## 🎯 Assignment
 
-### 📧 Email Invitation Check
+####  Email Invitation Check
 
 Create a list of email addresses belonging to guests invited to a party.
 
@@ -26,13 +26,13 @@ Print an appropriate message indicating whether the user is allowed to access th
 - Do not use any built-in array methods, such as `includes()`.
 - Email validation is not required.
 
-### 🎲 Dice Game
+####  Dice Game
 
 Generate a random number between **1 and 6** for both the player and the computer.
 
 Compare the two results and determine the winner based on who rolls the highest number.
 
-### 🧠 Before You Start
+### 🔎 Notes
 
 Take a moment to consider these questions:
 
@@ -40,8 +40,6 @@ Take a moment to consider these questions:
 - If we need to compare something, what do we need to perform that comparison?
 
 Can you solve this problem? Absolutely! All it takes is a little logical thinking.
-
-## 💡 Tips and Guidelines
 
 Before writing your code, remember:
 
@@ -69,4 +67,4 @@ Break each problem down into simple steps before translating your reasoning into
 
 ## ©️ Credits
 
-Exercise assigned by **Boolean Tech Academy** as part of the Web Development course - Class 152 - Year 2025-2026
+Exercise assigned by **Boolean Tech Academy** as part of the Web Development course (Class 152, A.Y. 2025–2026).
