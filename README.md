@@ -2,7 +2,7 @@
 
 # 🎓 Exercise 18/50: E-mails & Dice Game
 
-A JavaScript exercise focused on array searching, user input, conditional logic, and random number generation through two practical challenges: an email invitation check and a dice game.
+Array searching, user input, conditional logic, and random number generation through two practical challenges: an email invitation check and a dice game.
 
 ## 📌 Project Overview
 
