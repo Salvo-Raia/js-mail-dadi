@@ -1,19 +1,16 @@
 ![Static Badge](https://img.shields.io/badge/Boolean_Tech_Academy-1565C0?style=for-the-badge)
 
-# 🎓 Exercise 18/50: E-mails & Dice Game
+# Exercise 18/50: E-mails & Dice Game
 
 Array searching, user input, conditional logic, and random number generation through two practical challenges: an email invitation check and a dice game.
 
-## 📌 Project Overview
+## Project overview
 
-| Property | Details |
-|:--|:--|
-| Repository | js-mail-dadi |
-| Category | Boolean Tech Academy |
-| Type | Exercise |
-| Exercise | 18/50 |
+| Repository | Project | Category | Main Focus | Exercise |
+|:--|:--|:--|:--|:--|
+| js-mail-dadi | E-mails & Dice Game | Exercise | JavaScript Arrays, User Input & Random Numbers | 18/50 |
 
-## 🎯 Assignment
+## Assignment
 
 ####  Email Invitation Check
 
@@ -34,7 +31,7 @@ Generate a random number between **1 and 6** for both the player and the compute
 
 Compare the two results and determine the winner based on who rolls the highest number.
 
-### 🔎 Notes
+##### Notes
 
 Take a moment to consider these questions:
 
@@ -53,11 +50,11 @@ Before writing your code, remember:
 
 Break each problem down into simple steps before translating your reasoning into JavaScript instructions.
 
-## 🛠️ Technologies
+## Technologies
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 
-## 💡 What I Learned
+## What I learned
 
 - Creating and searching through arrays using `for` loops.
 - Comparing strings and checking for matching values.
@@ -67,6 +64,6 @@ Break each problem down into simple steps before translating your reasoning into
 - Comparing numerical values to determine a winner.
 - Breaking down problems into logical steps before writing code.
 
-## ©️ Credits
+## Credits
 
-Exercise assigned by **Boolean Tech Academy** as part of the Web Development course (Class 152, A.Y. 2025–2026).
+Exercise assigned by **Boolean Tech Academy** as part of the Web Development course (Class 152, A.Y. 2025-2026).
