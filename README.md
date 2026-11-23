@@ -8,7 +8,7 @@ Array searching, user input, conditional logic, and random number generation thr
 
 | Repository | Project | Category | Main Focus | Exercise |
 |:--|:--|:--|:--|:--|
-| js-mail-dadi | E-mails & Dice Game | Exercise | JavaScript, arrays, user input & Random numbers | 18/50 |
+| js-mail-dadi | E-mails & Dice Game | Exercise | JavaScript, arrays, user input, random numbers | 18/50 |
 
 ## Assignment
 
