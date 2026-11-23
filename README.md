@@ -12,7 +12,7 @@ Array searching, user input, conditional logic, and random number generation thr
 
 ## Assignment
 
-####  Email Invitation Check
+####  Email Invitation check
 
 Create a list of email addresses belonging to guests invited to a party.
 
@@ -25,7 +25,7 @@ Print an appropriate message indicating whether the user is allowed to access th
 - Do not use any built-in array methods, such as `includes()`.
 - Email validation is not required.
 
-####  Dice Game
+####  Dice game
 
 Generate a random number between **1 and 6** for both the player and the computer.
 
