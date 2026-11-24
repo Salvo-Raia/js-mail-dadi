@@ -20,7 +20,7 @@ Ask the user to enter their email address, then check whether it is included in 
 
 Print an appropriate message indicating whether the user is allowed to access the party.
 
-**Requirements:**
+**Requirements**
 
 - Use a `for` loop to search through the list.
 - Do not use any built-in array methods, such as `includes()`.
