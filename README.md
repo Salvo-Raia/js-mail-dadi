@@ -12,7 +12,7 @@ Array searching, user input, conditional logic, and random number generation thr
 
 ## Assignment
 
-#### Email Invitation check
+#### Email Invitation
 
 Create a list of email addresses belonging to guests invited to a party.
 
